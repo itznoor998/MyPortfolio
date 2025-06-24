@@ -1,0 +1,3 @@
+I am a Data Science student at IIT Madras, passionate about machine learning, data analysis, and building impactful solutions to real-world problems. My journey in data science is fueled by curiosity, creativity, and a commitment to continuous learning.
+
+Beyond developing technical skills, I aspire to leverage artificial intelligence to create tools and systems that contribute to the welfare of society. I believe in the power of data-driven innovation to address challenges in areas like healthcare, education, sustainability, and social equity. With every project, I strive to move closer to this vision — blending technology and purpose to make a meaningful difference.

@@ -1,0 +1,29 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body.bg-dark .card {
+    background-color: #343a40 !important;
+    color: #fff !important;
+}
+
+body.bg-light .card {
+    background-color: #fff !important;
+    color: #212529 !important;
+}
