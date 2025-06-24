@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>{{ project }} | Noor</title>
+    <script>
+        // Apply mode classes immediately before CSS loads (prevents flicker)
+        const savedMode = localStorage.getItem("darkMode");
+        if (savedMode === "true") {
+            document.documentElement.classList.add("bg-dark", "text-white");
+        } else {
+            document.documentElement.classList.add("bg-light", "text-dark");
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body id="app" :class="{'bg-dark text-white': isDark, 'bg-light text-dark': !isDark}">
+    <div class="container py-4">
+        {{ content|safe }}
+
+        <div class="mt-4 d-flex justify-content-between">
+            <a href="/" class="btn btn-secondary">Back</a>
+
+            <button class="btn btn-sm btn-outline-secondary mt-3" @click="toggleDarkMode" v-if="!isDark">🌙 Dark</button>
+            <button class="btn btn-sm btn-outline-secondary mt-3" @click="toggleDarkMode" v-else>☀️ Light</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+
+</html>

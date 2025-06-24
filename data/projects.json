@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "System Threat Forecasting using traditional ML and Boosting Techniques",
+        "description": "Predict if a system is threatened with malware based on sytem feature data.",
+        "tools": "Python, Scikit-learn, XGBoost, LightGBM",
+        "github": "https://github.com/itznoor998/System-Threat-Forecaster",
+        "blog_slug": "threat-forecasting"
+    },
+    {
+        "id": 2,
+        "title": "Auto Data Analysis using UV Library",
+        "description": "Automatically generate statistical summaries, visualizations, and narrative reports from CSV datasets.",
+        "tools": "Python, UV Library",
+        "github": "https://github.com/itznoor998/TDS_Project2_auto",
+        "blog_slug": "auto-analysis"
+    }
+]
