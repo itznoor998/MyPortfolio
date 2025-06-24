@@ -7,7 +7,7 @@ createApp({
       isDark: localStorage.getItem("darkMode") === "true",
       projects: [],
       profileImg: "/static/assets/profile.jpg",
-      resume: "/static/assets/resume.pdf",
+      resume: "/static/assets/noor_resume.pdf",
       aboutText: "",
       certificates: [
         {
