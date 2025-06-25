@@ -1,6 +1,6 @@
 # Self Managed Portfolio by Noor
 
-[![UptimeRobot Status](https://img.shields.io/badge/uptimerobot%2Fstatus%2Fm800804551-662ff659cc32e41644ac9f03)](https://stats.uptimerobot.com)
+[![UptimeRobot Status](https://img.shields.io/badge/uptimerobot%2Fstatus%2Fm800804551-662ff659cc32e41644ac9f03)](https://stats.uptimerobot.com/29oQXYCcGW)
 
 Welcome to my personal portfolio website, where I showcase my skills, projects, certificates, and achievements as a Data Science student at **IIT Madras**.  
 
